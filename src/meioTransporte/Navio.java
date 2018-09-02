@@ -9,12 +9,10 @@ package meioTransporte;
  *
  * @author denis
  */
-public class Navio extends Transporte{
+public class Navio extends Transporte {
 
     public Navio() {
-    this.locomocao.getLocomover();
+        locomocao.getLocomover();
     }
-    
-    
-    
+
 }

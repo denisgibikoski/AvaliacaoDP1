@@ -5,6 +5,7 @@
  */
 package methodFactory;
 
+
 import meioTransporte.Automovel;
 import meioTransporte.Aviao;
 import meioTransporte.Navio;
@@ -21,11 +22,11 @@ public abstract class TransporteFactoryConcreto extends TransporteFactory {
 
         switch (tipo) {
             
-            case "AUTOMOVEL":
+            case "TERRA":
                 return new Automovel();
-            case "NAVIO":
+            case "AGUA":
                 return new Navio();
-            case "AVIAO":
+            case "AR":
                 return new Aviao();
             default:
                 break;

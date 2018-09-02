@@ -9,6 +9,6 @@ package methodFactory;
  *
  * @author denis
  */
-public class TransporteMethodFactory extends TransporteFactoryConcreto{
+public class Transportes extends TransporteFactoryConcreto{
     
 }
