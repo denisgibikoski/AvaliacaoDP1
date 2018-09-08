@@ -12,7 +12,7 @@ package meioTransporte;
 public class Automovel extends Transporte{
 
     public Automovel() {
-        locomocao.getLocomover();
+        locomocao = new MeioTerrestre();
     }
     
 }

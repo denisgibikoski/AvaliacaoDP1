@@ -21,14 +21,13 @@ public class NewMain {
         // TODO code application logic here
         
         TransporteFactory  transportes = new Transportes();
-        
-        Transporte carro = transportes.fazerEntrega("TERRA");
-        
-        Transporte barco = transportes.fazerEntrega("AGUA");
+     
         
         Transporte aviao = transportes.fazerEntrega("AR");
         
+        Transporte navio = transportes.fazerEntrega("AGUA");
         
+        Transporte carro = transportes.fazerEntrega("TERRA");
     }
     
 }

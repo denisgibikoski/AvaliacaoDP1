@@ -12,7 +12,7 @@ package meioTransporte;
 public class Navio extends Transporte {
 
     public Navio() {
-        locomocao.getLocomover();
+      locomocao = new MeioAquatico();
     }
 
 }

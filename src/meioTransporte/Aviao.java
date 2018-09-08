@@ -5,6 +5,8 @@
  */
 package meioTransporte;
 
+
+
 /**
  *
  * @author denis
@@ -13,7 +15,8 @@ public class Aviao extends Transporte {
 
     public Aviao() {
 
-        locomocao.getLocomover();
+            locomocao = new MeioAerio();
+       
     }
 
 }
