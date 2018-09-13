@@ -3,8 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package meioTransporte;
 
+
+import AeroportoFacede.AeroportoFacede;
+import AeroportoFacede.Procedimento;
+import meioTransporte.Transporte;
 import methodFactory.TransporteFactory;
 import methodFactory.Transportes;
 
@@ -28,6 +31,14 @@ public class NewMain {
         Transporte navio = transportes.fazerEntrega("AGUA");
         
         Transporte carro = transportes.fazerEntrega("TERRA");
+        
+        
+        AeroportoFacede aeroporto = new AeroportoFacede();
+        
+        Procedimento procedimentoDecolar = aeroporto.getProcedimento(AeroportoFacede.DECOLAR);
+        
+         Procedimento procedimentoPousar = aeroporto.getProcedimento(AeroportoFacede.POUSAR);
+        
     }
     
 }

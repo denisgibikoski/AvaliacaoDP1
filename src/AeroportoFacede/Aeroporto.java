@@ -3,23 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package meioTransporte;
-
-
+package AeroportoFacede;
 
 /**
  *
  * @author denis
  */
-public class Aviao extends Transporte {
-
-    public Aviao() {
-
-            locomocao = new MeioAerio();
-       
-    }
-
-      
-  
-
+public interface Aeroporto {
+    
+    public Procedimento getProcedimento();
+    
 }
